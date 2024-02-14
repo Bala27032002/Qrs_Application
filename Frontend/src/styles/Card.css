@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    height: 8rem;
+    border: 1px solid black;
+  }
+  
+  .left-side {
+    flex: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+  }
+  
+  .right-side {
+    flex: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .card {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .left-side,
+    .right-side {
+      flex: 100%;
+    }
+  }
+  

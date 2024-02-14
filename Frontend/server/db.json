@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "coursesName": "MERN Full Stack",
+      "description": "This program will advance your career as a MEAN stack developer. You’ll learn top skills such as MongoDB, Express.js, Angular, and Node.js (“MEAN”), plus GIT, HTML, CSS, and JavaScrip",
+      "duration": "6 Month",
+      "url": "https://wallpaperaccess.com/full/8901671.jpg",
+      "category": "SOFTWARE DEVELOPMENT",
+      "id": 8
+    },
+    {
+      "coursesName": "Java Full Stack",
+      "description": " The basic concepts of object-oriented programming (OOP) language using Java,fundamental data types to advanced programming structures.You will learn Core Java ,Angular, Spring MVC with",
+      "duration": "6 Month",
+      "url": "https://contentstatic.techgig.com/photo/93000110/What-makes-Java-still-popular-among-developers.jpg",
+      "category": "SOFTWARE DEVELOPMENT",
+      "id": 9
+    },
+    {
+      "coursesName": "Python Full Stack",
+      "description": "The curriculum is going to be very hands on as we walk you from start to finish of becoming a professional Python developer. We will start from the very beginning by teaching you Python basics and programming fundamentals, ",
+      "duration": "3 Month",
+      "url": "https://thumbs.dreamstime.com/b/python-programming-language-programing-workflow-abstract-algorithm-concept-virtual-screen-200850656.jpg",
+      "category": "SOFTWARE DEVELOPMENT",
+      "id": 10
+    },
+    {
+      "coursesName": "Embedded System",
+      "description": "Automotive electronics starts with hardware and software platform and it is related to digital number systems and Boolean functions it also includes Vehicle architecture,Programming,Linux commands ",
+      "duration": "1 Year",
+      "url": "https://www.einfochips.com/blog/wp-content/uploads/2018/12/how-rtos-for-embedded-systems-powers-the-internet-of-things-featured01-1280x720.jpg",
+      "category": "AUTOMOTIVE EMBEDDED",
+      "id": 11
+    },
+    {
+      "coursesName": "VLSI Design",
+      "description": "Very-large-scale integration (VLSI) is the process of creating an integrated circuit (IC) by combining thousands of transistors into a single chip,The microprocessor is a VLSI device. ",
+      "duration": "4 Month",
+      "url": "https://www.indiaeve.com/images/events/Event16925812Img.jpg",
+      "category": "AUTOMOTIVE EMBEDDED",
+      "id": 12
+    },
+    {
+      "coursesName": "Real Time Sysytem",
+      "description": "The term “real-time system” refers to any information processing system with hardware and software components that perform real-time application functions and can respond to events",
+      "duration": "3 Month",
+      "url": "https://www.krasamo.com/wp-content/uploads/stock-vector-internet-of-things-abstract-blue-central-processing-unit-isometric-icon-in-center-of-background-1682340655@3x.png",
+      "category": "AUTOMOTIVE EMBEDDED",
+      "id": 13
+    },
+    {
+      "coursesName": "Java+Selenium",
+      "description": "The Program is designed to make the learner expert in Java and Selenium. Program covers Java Programming and in-depth Selenium.",
+      "duration": "6 Month",
+      "url": "https://blog.shiftasia.com/content/images/2023/05/selenium.jpg",
+      "category": "TESTING TRACK",
+      "id": 14
+    }
+  ]
+}

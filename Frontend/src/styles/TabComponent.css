@@ -1,0 +1,44 @@
+/* TabComponent.css */
+
+.container-lg {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px; /* Adjust as needed */
+  }
+  
+  .cols-md-6 {
+    flex: 0 0 50%; /* Half width for medium screens and above */
+    padding: 10px; /* Adjust as needed */
+  }
+  
+  .video-container {
+    width: 100%;
+  }
+  
+  .video-iframe {
+    width: 100%;
+    height: 309px;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .green-text {
+    color: #66023b;
+    font-family: serif;
+   
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  

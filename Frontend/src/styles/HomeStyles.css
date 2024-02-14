@@ -1,0 +1,355 @@
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.headerContainer {
+  width: auto;
+  margin-left: 30px;
+}
+
+.home .headerContainer h1 {
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+}
+.error{
+  color:'red';
+}
+.home .headerContainer p {
+  margin-top: 15px;
+  padding: 0;
+  font-size: 40px;
+  font-weight: lighter;
+  color: black;
+}
+
+.headerContainer button {
+  background-color: #121619;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 180px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.headerContainer button:hover {
+  background-color: #07090a;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+/* mobile view  */
+
+@media only screen and (max-width: 600px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+  .headerContainer {
+    margin-left: 0;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #121619; */
+    color: black;
+  }
+  .home .headerContainer h1 {
+    font-size: 40px;
+    height: 30px;
+    margin: 30px 0px;
+    color: white;
+  }
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home .headerContainer p {
+    font-size: 30px;
+    color: white;
+  }
+  .headerContainer button {
+    background-color: white;
+    color: #121619;
+    margin-bottom: 30px;
+  }
+  
+}
+@keyframes cardAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(1rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.card {
+  /* Your existing card styles */
+  /* ... */
+  
+  transition: transform 0.3s ease;
+}
+
+.card.hover {
+  transform: translateY(-10px);
+}
+.custom-card {
+  position: relative;
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+}
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1rem);
+  }
+}
+/* carosel */
+.carousel-button {
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  margin-top: -2.5rem;
+}
+
+.carousel-arrow {
+  font-size: 2rem;
+  color: black;
+}
+/* ...............2nd carosel */
+.image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-arrow {
+  fill: black;
+}
+/* student say */
+.image {
+  animation: movingAnimation 2s infinite alternate;
+}
+
+@keyframes movingAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-2rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+.waviy {
+  position: relative;
+  /* -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2)); */
+  font-size: 30px;
+  margin-top: 50px;
+}
+.waviy span {
+  font-family: '', cursive;
+  position: relative;
+  bottom:5rem;
+  display: inline-block;
+  color: #66023b;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-8px)
+  }
+} 
+
+/* fadeup */
+.overlay{
+  opacity: 0;
+  animation: fadeUp 1s ease-in-out forwards;
+}
+
+.home {
+  opacity: 0;
+  animation: fadeUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 768px) {
+  .home {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+/* Enroll */
+.scale-effect {
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
+}
+
+.scale-effect:hover {
+  transform: scale(1);
+}
+
+.pulse-effect {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* interview */
+.interview-cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.interview-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.interview-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.interview-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.interview-details {
+  text-align: center;
+}
+
+.interview-date {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.interview-time {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.interview-role {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.apply-button {
+  background-color: #66023b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+  background-color: #590037;
+}
+.interview-card {
+  background-color: #fad7f1;
+}
+/* aboutui */
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.blinking-icon {
+  animation: blinking 1s infinite;
+}
+/* embedded */
